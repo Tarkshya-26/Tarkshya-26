@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" height="100%" style="background:#050811; border-radius: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <pattern id="buildGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#0f172a" stroke-width="0.8" opacity="0.5"/>
+    </pattern>
+    <filter id="buildGlow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+
+    @keyframes pulseLed {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.3); }
+    }
+
+    .led-dot { animation: pulseLed 3s infinite ease-in-out; transform-origin: center; }
+  </style>
+
+  <!-- Background -->
+  <rect width="960" height="480" rx="12" fill="#050811" />
+  <rect width="960" height="480" rx="12" fill="url(#buildGrid)" />
+  <rect x="1" y="1" width="958" height="478" rx="11" fill="none" stroke="#16243b" stroke-width="1" />
+
+  <!-- Section Header -->
+  <g transform="translate(40, 35)">
+    <rect width="230" height="28" rx="4" fill="#0b1730" stroke="#00f0ff" stroke-width="1" filter="url(#buildGlow)"/>
+    <text x="115" y="18" fill="#00f0ff" class="mono" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1.5">02 / CURRENTLY BUILDING</text>
+  </g>
+
+  <!-- ================= CARD 1: AGENTIC SYSTEMS ================= -->
+  <g transform="translate(40, 85)">
+    <rect width="425" height="175" rx="8" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+    <!-- Top Bar -->
+    <rect x="0" y="0" width="425" height="36" rx="8" fill="#091428" />
+    <path d="M 0 36 L 425 36" stroke="#16243b" stroke-width="1" />
+    <text x="16" y="23" fill="#f8fafc" class="mono" font-size="12" font-weight="bold" letter-spacing="1">01 / AGENTIC SYSTEMS</text>
+    <rect x="295" y="8" width="115" height="20" rx="10" fill="#050a14" stroke="#1d304e" stroke-width="1" />
+    <circle cx="307" cy="18" r="3" fill="#00f0ff" />
+    <text x="316" y="22" fill="#38bdf8" class="mono" font-size="9" font-weight="bold">DISPATCH: ASYNC</text>
+
+    <!-- Card Body -->
+    <text x="16" y="62" fill="#94a3b8" class="sans" font-size="12.5">
+      <tspan x="16" dy="0">Exploring multi-agent orchestration, state transitions, tool call routing,</tspan>
+      <tspan x="16" dy="20">and protocol standardization. Deep hands-on experience with</tspan>
+      <tspan x="16" dy="20"><tspan fill="#00f0ff" font-weight="bold">OpenAI Agents SDK</tspan>, <tspan fill="#00f0ff" font-weight="bold">LangGraph</tspan>, <tspan fill="#00f0ff" font-weight="bold">CrewAI</tspan>, <tspan fill="#00f0ff" font-weight="bold">AutoGen</tspan>, and building</tspan>
+      <tspan x="16" dy="20">custom <tspan fill="#00f0ff" font-weight="bold">MCP (Model Context Protocol)</tspan> servers for tool integration.</tspan>
+    </text>
+  </g>
+
+  <!-- ================= CARD 2: LLM ENGINEERING ================= -->
+  <g transform="translate(495, 85)">
+    <rect width="425" height="175" rx="8" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+    <!-- Top Bar -->
+    <rect x="0" y="0" width="425" height="36" rx="8" fill="#091428" />
+    <path d="M 0 36 L 425 36" stroke="#16243b" stroke-width="1" />
+    <text x="16" y="23" fill="#f8fafc" class="mono" font-size="12" font-weight="bold" letter-spacing="1">02 / LLM ENGINEERING</text>
+    <rect x="295" y="8" width="115" height="20" rx="10" fill="#050a14" stroke="#1d304e" stroke-width="1" />
+    <circle cx="307" cy="18" r="3" fill="#00f0ff" />
+    <text x="316" y="22" fill="#38bdf8" class="mono" font-size="9" font-weight="bold">EVAL: CONTINUOUS</text>
+
+    <!-- Card Body -->
+    <text x="16" y="62" fill="#94a3b8" class="sans" font-size="12.5">
+      <tspan x="16" dy="0">Building production-grade <tspan fill="#00f0ff" font-weight="bold">RAG pipelines</tspan>, hybrid vector search,</tspan>
+      <tspan x="16" dy="20">context compression, semantic routing, and structured output parsing.</tspan>
+      <tspan x="16" dy="20">Translating unstructured model outputs into deterministic, typed schemas</tspan>
+      <tspan x="16" dy="20">for reliable downstream backend execution.</tspan>
+    </text>
+  </g>
+
+  <!-- ================= CARD 3: AI SECURITY ================= -->
+  <g transform="translate(40, 275)">
+    <rect width="425" height="175" rx="8" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+    <!-- Top Bar -->
+    <rect x="0" y="0" width="425" height="36" rx="8" fill="#091428" />
+    <path d="M 0 36 L 425 36" stroke="#16243b" stroke-width="1" />
+    <text x="16" y="23" fill="#f8fafc" class="mono" font-size="12" font-weight="bold" letter-spacing="1">03 / AI SECURITY</text>
+    <rect x="295" y="8" width="115" height="20" rx="10" fill="#050a14" stroke="#1d304e" stroke-width="1" />
+    <circle cx="307" cy="18" r="3" fill="#00f0ff" />
+    <text x="316" y="22" fill="#38bdf8" class="mono" font-size="9" font-weight="bold">SCOPE: CRITICAL</text>
+
+    <!-- Card Body -->
+    <text x="16" y="62" fill="#94a3b8" class="sans" font-size="12.5">
+      <tspan x="16" dy="0">Designing security controls for agentic execution. Focus on</tspan>
+      <tspan x="16" dy="20"><tspan fill="#00f0ff" font-weight="bold">tool privilege isolation</tspan>, automated risk triage systems,</tspan>
+      <tspan x="16" dy="20">threat modeling for LLMs, and agentic security workflows that maintain</tspan>
+      <tspan x="16" dy="20">strict system boundaries when models interact with APIs.</tspan>
+    </text>
+  </g>
+
+  <!-- ================= CARD 4: PRODUCTION AI ================= -->
+  <g transform="translate(495, 275)">
+    <rect width="425" height="175" rx="8" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+    <!-- Top Bar -->
+    <rect x="0" y="0" width="425" height="36" rx="8" fill="#091428" />
+    <path d="M 0 36 L 425 36" stroke="#16243b" stroke-width="1" />
+    <text x="16" y="23" fill="#f8fafc" class="mono" font-size="12" font-weight="bold" letter-spacing="1">04 / PRODUCTION AI</text>
+    <rect x="295" y="8" width="115" height="20" rx="10" fill="#050a14" stroke="#1d304e" stroke-width="1" />
+    <circle cx="307" cy="18" r="3" fill="#00f0ff" />
+    <text x="316" y="22" fill="#38bdf8" class="mono" font-size="9" font-weight="bold">INFRA: CLOUD</text>
+
+    <!-- Card Body -->
+    <text x="16" y="62" fill="#94a3b8" class="sans" font-size="12.5">
+      <tspan x="16" dy="0">Architecting resilient backend infrastructure using <tspan fill="#00f0ff" font-weight="bold">FastAPI</tspan>, REST APIs,</tspan>
+      <tspan x="16" dy="20"><tspan fill="#00f0ff" font-weight="bold">Docker</tspan>, and <tspan fill="#00f0ff" font-weight="bold">AWS</tspan>. Ensuring production AI workloads operate</tspan>
+      <tspan x="16" dy="20">with proper telemetry, low latencies, rate limiting, state persistence,</tspan>
+      <tspan x="16" dy="20">and end-to-end observability.</tspan>
+    </text>
+  </g>
+</svg>

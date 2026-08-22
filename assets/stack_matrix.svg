@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" height="100%" style="background:#050811; border-radius: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <pattern id="stackGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#0f172a" stroke-width="0.8" opacity="0.5"/>
+    </pattern>
+    <filter id="stackGlow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <rect width="960" height="380" rx="12" fill="#050811" />
+  <rect width="960" height="380" rx="12" fill="url(#stackGrid)" />
+  <rect x="1" y="1" width="958" height="378" rx="11" fill="none" stroke="#16243b" stroke-width="1" />
+
+  <!-- Section Header -->
+  <g transform="translate(40, 35)">
+    <rect width="210" height="28" rx="4" fill="#0b1730" stroke="#00f0ff" stroke-width="1" filter="url(#stackGlow)"/>
+    <text x="105" y="18" fill="#00f0ff" class="mono" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1.5">04 / ENGINEERING STACK</text>
+  </g>
+
+  <!-- Stack Matrix Grid (6 Categories) -->
+  
+  <!-- Row 1, Col 1: LANGUAGE -->
+  <g transform="translate(40, 85)">
+    <rect width="280" height="130" rx="6" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="30" rx="6" fill="#091428" />
+    <text x="14" y="20" fill="#00f0ff" class="mono" font-size="11" font-weight="bold" letter-spacing="1">LANGUAGE</text>
+    <text x="14" y="58" fill="#e2e8f0" class="mono" font-size="13" font-weight="600">● Python</text>
+    <text x="14" y="82" fill="#e2e8f0" class="mono" font-size="13" font-weight="600">● SQL</text>
+    <text x="14" y="106" fill="#e2e8f0" class="mono" font-size="13" font-weight="600">● JavaScript</text>
+  </g>
+
+  <!-- Row 1, Col 2: AI / LLM -->
+  <g transform="translate(340, 85)">
+    <rect width="280" height="130" rx="6" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="30" rx="6" fill="#091428" />
+    <text x="14" y="20" fill="#00f0ff" class="mono" font-size="11" font-weight="bold" letter-spacing="1">AI / LLM ENGINEERING</text>
+    <text x="14" y="56" fill="#e2e8f0" class="mono" font-size="12">OpenAI • Structured Outputs</text>
+    <text x="14" y="78" fill="#e2e8f0" class="mono" font-size="12">RAG • Vector Search &amp; Hybrid</text>
+    <text x="14" y="100" fill="#e2e8f0" class="mono" font-size="12">Tool Calling • Embeddings</text>
+  </g>
+
+  <!-- Row 1, Col 3: AGENT SYSTEMS -->
+  <g transform="translate(640, 85)">
+    <rect width="280" height="130" rx="6" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="30" rx="6" fill="#091428" />
+    <text x="14" y="20" fill="#00f0ff" class="mono" font-size="11" font-weight="bold" letter-spacing="1">AGENT SYSTEMS</text>
+    <text x="14" y="56" fill="#e2e8f0" class="mono" font-size="12">LangGraph • OpenAI Agents SDK</text>
+    <text x="14" y="78" fill="#e2e8f0" class="mono" font-size="12">CrewAI • AutoGen</text>
+    <text x="14" y="100" fill="#e2e8f0" class="mono" font-size="12">MCP (Model Context Protocol)</text>
+  </g>
+
+  <!-- Row 2, Col 1: BACKEND -->
+  <g transform="translate(40, 230)">
+    <rect width="280" height="120" rx="6" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="30" rx="6" fill="#091428" />
+    <text x="14" y="20" fill="#00f0ff" class="mono" font-size="11" font-weight="bold" letter-spacing="1">BACKEND</text>
+    <text x="14" y="56" fill="#e2e8f0" class="mono" font-size="12.5">FastAPI • Async Dispatch</text>
+    <text x="14" y="78" fill="#e2e8f0" class="mono" font-size="12.5">Flask • RESTful APIs</text>
+    <text x="14" y="100" fill="#e2e8f0" class="mono" font-size="12.5">WebSockets • State Persistence</text>
+  </g>
+
+  <!-- Row 2, Col 2: INFRASTRUCTURE -->
+  <g transform="translate(340, 230)">
+    <rect width="280" height="120" rx="6" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="30" rx="6" fill="#091428" />
+    <text x="14" y="20" fill="#00f0ff" class="mono" font-size="11" font-weight="bold" letter-spacing="1">INFRASTRUCTURE</text>
+    <text x="14" y="56" fill="#e2e8f0" class="mono" font-size="12.5">AWS (EC2/Cloud Infrastructure)</text>
+    <text x="14" y="78" fill="#e2e8f0" class="mono" font-size="12.5">Linux Environment • Nginx</text>
+    <text x="14" y="100" fill="#e2e8f0" class="mono" font-size="12.5">Docker • Git Workflow</text>
+  </g>
+
+  <!-- Row 2, Col 3: FRONTEND -->
+  <g transform="translate(640, 230)">
+    <rect width="280" height="120" rx="6" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="30" rx="6" fill="#091428" />
+    <text x="14" y="20" fill="#00f0ff" class="mono" font-size="11" font-weight="bold" letter-spacing="1">FRONTEND &amp; UI</text>
+    <text x="14" y="56" fill="#e2e8f0" class="mono" font-size="12.5">React • Modern UI</text>
+    <text x="14" y="78" fill="#e2e8f0" class="mono" font-size="12.5">Vite • Modern Tooling</text>
+    <text x="14" y="100" fill="#e2e8f0" class="mono" font-size="12.5">Tailwind CSS</text>
+  </g>
+</svg>

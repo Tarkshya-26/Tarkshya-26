@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 370" width="100%" height="100%" style="background:#050811; border-radius: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <pattern id="prinGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#0f172a" stroke-width="0.8" opacity="0.5"/>
+    </pattern>
+    <filter id="prinGlow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <rect width="960" height="370" rx="12" fill="#050811" />
+  <rect width="960" height="370" rx="12" fill="url(#prinGrid)" />
+  <rect x="1" y="1" width="958" height="368" rx="11" fill="none" stroke="#16243b" stroke-width="1" />
+
+  <!-- Section Header -->
+  <g transform="translate(40, 35)">
+    <rect width="250" height="28" rx="4" fill="#0b1730" stroke="#00f0ff" stroke-width="1" filter="url(#prinGlow)"/>
+    <text x="125" y="18" fill="#00f0ff" class="mono" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1.5">05 / ENGINEERING PRINCIPLES</text>
+  </g>
+
+  <!-- Principles List -->
+  <g transform="translate(40, 85)">
+
+    <!-- P1 -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="20" fill="#00f0ff" class="mono" font-size="14" font-weight="bold" filter="url(#prinGlow)">01 —</text>
+      <text x="50" y="20" fill="#f8fafc" class="sans" font-size="14" font-weight="700">Models are components, not applications.</text>
+      <text x="390" y="20" fill="#94a3b8" class="sans" font-size="13">An LLM is a reasoning primitive inside a system, not the architecture itself.</text>
+      <line x1="0" y1="36" x2="880" y2="36" stroke="#162032" stroke-width="1" />
+    </g>
+
+    <!-- P2 -->
+    <g transform="translate(0, 50)">
+      <text x="0" y="20" fill="#00f0ff" class="mono" font-size="14" font-weight="bold" filter="url(#prinGlow)">02 —</text>
+      <text x="50" y="20" fill="#f8fafc" class="sans" font-size="14" font-weight="700">Agents need boundaries.</text>
+      <text x="390" y="20" fill="#94a3b8" class="sans" font-size="13">Autonomous loops must operate within strict state spaces &amp; explicit criteria.</text>
+      <line x1="0" y1="36" x2="880" y2="36" stroke="#162032" stroke-width="1" />
+    </g>
+
+    <!-- P3 -->
+    <g transform="translate(0, 100)">
+      <text x="0" y="20" fill="#00f0ff" class="mono" font-size="14" font-weight="bold" filter="url(#prinGlow)">03 —</text>
+      <text x="50" y="20" fill="#f8fafc" class="sans" font-size="14" font-weight="700">Tool access is a security boundary.</text>
+      <text x="390" y="20" fill="#94a3b8" class="sans" font-size="13">Granting an agent API access is granting execution privilege — scope it like root.</text>
+      <line x1="0" y1="36" x2="880" y2="36" stroke="#162032" stroke-width="1" />
+    </g>
+
+    <!-- P4 -->
+    <g transform="translate(0, 150)">
+      <text x="0" y="20" fill="#00f0ff" class="mono" font-size="14" font-weight="bold" filter="url(#prinGlow)">04 —</text>
+      <text x="50" y="20" fill="#f8fafc" class="sans" font-size="14" font-weight="700">Production AI needs observability.</text>
+      <text x="390" y="20" fill="#94a3b8" class="sans" font-size="13">If you cannot trace every prompt, context window, and tool call, you cannot debug.</text>
+      <line x1="0" y1="36" x2="880" y2="36" stroke="#162032" stroke-width="1" />
+    </g>
+
+    <!-- P5 -->
+    <g transform="translate(0, 200)">
+      <text x="0" y="20" fill="#00f0ff" class="mono" font-size="14" font-weight="bold" filter="url(#prinGlow)">05 —</text>
+      <text x="50" y="20" fill="#f8fafc" class="sans" font-size="14" font-weight="700">Intelligent systems should be designed.</text>
+      <text x="390" y="20" fill="#94a3b8" class="sans" font-size="13">Frameworks change. System design, clean interfaces, and state hygiene remain.</text>
+    </g>
+
+  </g>
+</svg>

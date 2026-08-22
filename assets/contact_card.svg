@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="100%" style="background:#050811; border-radius: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <pattern id="conGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#0f172a" stroke-width="0.8" opacity="0.5"/>
+    </pattern>
+    <filter id="conGlow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <rect width="960" height="220" rx="12" fill="#050811" />
+  <rect width="960" height="220" rx="12" fill="url(#conGrid)" />
+  <rect x="1" y="1" width="958" height="218" rx="11" fill="none" stroke="#16243b" stroke-width="1" />
+
+  <!-- Section Header -->
+  <g transform="translate(40, 35)">
+    <rect width="145" height="28" rx="4" fill="#0b1730" stroke="#00f0ff" stroke-width="1" filter="url(#conGlow)"/>
+    <text x="72.5" y="18" fill="#00f0ff" class="mono" font-size="12" font-weight="bold" text-anchor="middle" letter-spacing="1.5">06 / CONNECT</text>
+  </g>
+
+  <!-- 4 Contact Columns -->
+  <g transform="translate(40, 85)">
+    
+    <!-- Col 1: Email -->
+    <g transform="translate(0, 0)">
+      <rect width="205" height="95" rx="6" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+      <text x="16" y="28" fill="#64748b" class="mono" font-size="11" letter-spacing="1">EMAIL</text>
+      <text x="16" y="55" fill="#00f0ff" class="mono" font-size="10.5" font-weight="bold">tarkshyabhardwaj333</text>
+      <text x="16" y="73" fill="#00f0ff" class="mono" font-size="10.5" font-weight="bold">@gmail.com ↗</text>
+    </g>
+
+    <!-- Col 2: LinkedIn -->
+    <g transform="translate(225, 0)">
+      <rect width="205" height="95" rx="6" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+      <text x="16" y="28" fill="#64748b" class="mono" font-size="11" letter-spacing="1">LINKEDIN</text>
+      <text x="16" y="55" fill="#e2e8f0" class="mono" font-size="11" font-weight="bold">tarkshya-bhardwaj</text>
+      <text x="16" y="73" fill="#38bdf8" class="mono" font-size="11">in/connect ↗</text>
+    </g>
+
+    <!-- Col 3: GitHub -->
+    <g transform="translate(450, 0)">
+      <rect width="205" height="95" rx="6" fill="#070e1c" stroke="#16243b" stroke-width="1.5" />
+      <text x="16" y="28" fill="#64748b" class="mono" font-size="11" letter-spacing="1">GITHUB</text>
+      <text x="16" y="55" fill="#e2e8f0" class="mono" font-size="11" font-weight="bold">Tarkshya-26</text>
+      <text x="16" y="73" fill="#38bdf8" class="mono" font-size="11">github/profile ↗</text>
+    </g>
+
+    <!-- Col 4: Resume -->
+    <g transform="translate(675, 0)">
+      <rect width="205" height="95" rx="6" fill="#070e1c" stroke="#00f0ff" stroke-width="1.5" filter="url(#conGlow)"/>
+      <text x="16" y="28" fill="#64748b" class="mono" font-size="11" letter-spacing="1">RESUME</text>
+      <text x="16" y="55" fill="#f8fafc" class="mono" font-size="11" font-weight="bold">REQUEST CV</text>
+      <text x="16" y="73" fill="#00f0ff" class="mono" font-size="11">Get PDF ↓</text>
+    </g>
+
+  </g>
+</svg>
