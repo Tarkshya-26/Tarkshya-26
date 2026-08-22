@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Tarkshya Bhardwaj — AI &amp; Security Engineer">
+  <defs>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" fill="none" stroke="rgba(148,163,184,0.055)" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fade" cx="50%" cy="40%" r="72%">
+      <stop offset="25%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask"><rect width="1200" height="300" fill="url(#fade)"/></mask>
+  </defs>
+
+  <rect width="1200" height="300" fill="#05070d"/>
+  <rect width="1200" height="300" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <text x="52" y="72" fill="#4d9fff" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13" font-weight="500"
+        letter-spacing="2.6">AI &amp; SECURITY ENGINEER</text>
+
+  <text x="52" y="138" fill="#e8edf5" font-family="'Space Grotesk','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="54" font-weight="700"
+        letter-spacing="-1.1">Tarkshya Bhardwaj</text>
+
+  <text x="52" y="180" fill="#98a2b6" font-family="'Space Grotesk','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="400"
+        letter-spacing="-0.2">Building intelligent systems with <tspan fill="#e8edf5">security at their core</tspan>.</text>
+
+  <path d="M996 52V126" stroke="#1a2233" stroke-width="1"/>
+  <text x="1014" y="68" fill="#6b7690" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.6">AGENTIC AI</text>
+  <text x="1014" y="92" fill="#6b7690" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.6">LLM ENGINEERING</text>
+  <text x="1014" y="116" fill="#6b7690" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.6">AI SECURITY</text>
+
+  <path d="M52 226H1148" stroke="#1a2233" stroke-width="1"/>
+
+  <text x="52" y="262" fill="#6b7690" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="2.2">USER<tspan fill="#1a2233" dx="10">/</tspan><tspan dx="10">AGENT</tspan><tspan fill="#1a2233" dx="10">/</tspan><tspan dx="10">MCP</tspan><tspan fill="#1a2233" dx="10">/</tspan><tspan dx="10">TOOLS</tspan><tspan fill="#1a2233" dx="10">/</tspan><tspan dx="10">INFRASTRUCTURE</tspan></text>
+
+  <text x="1148" y="262" fill="#6b7690" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="2.2"
+        text-anchor="end">NIT SRINAGAR &#183; INDIA</text>
+</svg>
