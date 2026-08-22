@@ -1,316 +1,255 @@
-::: {align="center"}
-# TARKSHYA BHARDWAJ
+<div align="center">
 
-### AI Systems Engineer · Agentic AI · LLM Engineering · AI Security
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:111827,100:0B1220&height=180&section=header&text=TARKSHYA%20BHARDWAJ&fontSize=48&fontColor=E5E7EB&fontAlignY=38&animation=twinkling&desc=AI%20%26%20Security%20Engineer&descAlignY=62&descSize=20" width="100%"/>
 
-Building intelligent systems that can **reason, retrieve, use tools, and
-take action.**
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=7DD3FC&center=true&vCenter=true&width=850&lines=Agentic+AI+%E2%80%A2+LLM+Engineering+%E2%80%A2+AI+Security;Building+systems+that+reason%2C+retrieve%2C+use+tools%2C+and+act.;LLMs+%E2%86%92+Agents+%E2%86%92+Tools+%E2%86%92+Systems" alt="Typing SVG"/>
+</a>
 
-`<br>`{=html}
+<br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Tarkshya--26-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tarkshya-26)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tarkshya-bhardwaj-063795268/)
-:::
+<a href="https://github.com/Tarkshya-26">
+  <img src="https://img.shields.io/badge/GitHub-Tarkshya--26-111827?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/tarkshya-bhardwaj-063795268/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-------------------------------------------------------------------------
+</div>
 
-## `whoami`
+---
 
-I'm an **Information Technology undergraduate at NIT Srinagar** focused
-on building AI systems that go beyond simple model interaction.
+## `01 / WHO AM I`
 
-My work sits at the intersection of:
+> **AI & Security Engineer** focused on building intelligent systems rather than just calling models.
 
-``` text
-                    AI SYSTEMS
-                        │
-        ┌───────────────┼───────────────┐
-        │               │               │
-        ▼               ▼               ▼
-   LLM ENGINEERING  AGENTIC AI      AI SECURITY
-        │               │               │
-        ├── RAG         ├── Tools       ├── Risk Systems
-        ├── Retrieval   ├── Agents      ├── Security AI
-        ├── Embeddings  ├── MCP         └── Automation
-        └── LLM Apps    └── Workflows
+I'm an Information Technology undergraduate at **NIT Srinagar** working at the intersection of:
+
+```text
+                     AI SYSTEMS
+                          │
+          ┌───────────────┼───────────────┐
+          │               │               │
+          ▼               ▼               ▼
+    LLM ENGINEERING   AGENTIC AI      AI SECURITY
+          │               │               │
+       RAG /         Tool Calling /    Risk Systems /
+    Retrieval /      Multi-Agent /    Security AI /
+    Embeddings         MCP /          Automation
+                     Orchestration
 ```
 
-I enjoy understanding what happens **under the hood** --- from retrieval
-pipelines and structured outputs to agent orchestration, external tools,
-APIs, and deployment.
+I like working close to the system boundary: **models, retrieval, state, tools, APIs, backends, and deployment**.
 
-------------------------------------------------------------------------
+---
 
-## `what_i_build`
+## `02 / CURRENT FOCUS`
+
+<div align="center">
+
+| 🧠 LLM ENGINEERING | 🤖 AGENTIC AI | 🔐 AI SECURITY |
+|:---:|:---:|:---:|
+| RAG | Tool Calling | AI Security Systems |
+| Retrieval | Multi-Agent Systems | Risk Automation |
+| Embeddings | LangGraph | Security Workflows |
+| Structured Outputs | OpenAI Agents SDK | Agentic Security |
+| LLM Applications | MCP | Secure AI Systems |
+
+</div>
+
+---
+
+## `03 / WHAT I'M BUILDING`
 
 ### 🧠 LLM Engineering
 
-Building applications around large language models with a focus on:
-
--   Retrieval-Augmented Generation
--   Embeddings & vector search
--   Prompt engineering
--   Structured outputs
--   Context management
--   LLM application architecture
-
-### 🤖 Agentic AI
-
-Exploring systems where LLMs can reason about tasks and interact with
-external systems:
-
--   Tool calling
--   Agent workflows
--   Planning & delegation
--   Multi-agent systems
--   Stateful execution
--   Agent orchestration
--   MCP
-
-### 🔐 AI Security
-
-Interested in applying AI to security-oriented workflows:
-
--   Risk management
--   Vulnerability-related automation
--   Security analysis
--   AI-assisted security workflows
--   Secure agent/tool architectures
-
-### ⚙️ Backend & Infrastructure
-
-Building the engineering layer around AI systems:
-
--   FastAPI
--   REST APIs
--   React
--   AWS
--   Linux
--   API integrations
--   Deployment
--   Automation
-
-------------------------------------------------------------------------
-
-# `experience`
-
-## 🔐 PayU --- Information Security
-
-Worked on an **Agentic AI-based Risk Register system** designed around
-security and risk-management workflows.
-
-The system connected an AI agent with enterprise systems and tools to
-allow users to interact with risk-related information conversationally.
-
-### Architecture
-
-``` text
-                         ┌───────────────┐
-                         │     USER      │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │   AI AGENT    │
-                         └───────┬───────┘
-                                 │
-                 ┌───────────────┼───────────────┐
-                 │               │               │
-                 ▼               ▼               ▼
-            ┌─────────┐     ┌─────────┐     ┌─────────────┐
-            │  Jira   │     │   MCP   │     │Risk Register│
-            │  Tools  │     │  Tools  │     │   Systems   │
-            └─────────┘     └─────────┘     └─────────────┘
-                 │               │               │
-                 └───────────────┼───────────────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │   RESPONSE    │
-                         └───────────────┘
-```
-
-### Engineering
-
-`FastAPI` · `React` · `MCP` · `Jira API` · `LLM Agents` · `AWS` ·
-`Linux`
-
-The project gave me hands-on experience with building AI systems that
-interact with **real APIs, tools, enterprise workflows, and deployment
-environments**.
-
-------------------------------------------------------------------------
-
-# `featured_projects`
-
-## 🧠 LLM Engineering
-
-A hands-on progression through modern LLM engineering concepts.
-
-``` text
+```text
 LLMs
- │
- ▼
-Prompt Engineering
- │
- ▼
+  ↓
+Prompting
+  ↓
 Embeddings
- │
- ▼
+  ↓
 Vector Search
- │
- ▼
+  ↓
 RAG
- │
- ▼
+  ↓
+Evaluation
+  ↓
 LLM Applications
 ```
 
-Currently covering:
+Focused on building useful LLM systems with retrieval, context management, structured outputs, and reliable application logic.
 
--   LLM fundamentals
--   Prompt engineering
--   Embeddings
--   Vector databases
--   Retrieval
--   RAG pipelines
--   LLM application design
+### 🤖 Agentic AI
 
-→ **[Explore LLM Engineering
-→](https://github.com/Tarkshya-26/LLM_ENG)**
-
-------------------------------------------------------------------------
-
-## 🤖 Agentic AI with Frameworks
-
-A hands-on exploration of modern agentic AI architectures and
-frameworks.
-
-``` text
-             LLM
-              │
-              ▼
-        Tool Calling
-              │
-              ▼
-           Agents
-              │
-              ▼
+```text
+        ┌─────────────┐
+        │    LLM      │
+        └──────┬──────┘
+               ↓
+         Tool Calling
+               ↓
+            Agents
+               ↓
+      ┌────────┼────────┐
+      ↓        ↓        ↓
+  Planning  State    Tools
+      │        │        │
+      └────────┼────────┘
+               ↓
       Multi-Agent Systems
-              │
-       ┌──────┼──────┐
-       ▼      ▼      ▼
-   LangGraph AutoGen CrewAI
-              │
-              ▼
-             MCP
+               ↓
+              MCP
 ```
 
-Frameworks explored:
+Exploring **OpenAI Agents SDK, LangGraph, CrewAI, AutoGen, MCP**, and the engineering decisions underneath those abstractions.
 
-`OpenAI` · `CrewAI` · `LangGraph` · `AutoGen` · `MCP`
+### 🔐 AI Security
 
-The repository contains hands-on implementations covering agent
-workflows, multi-agent architectures, research agents, coding agents,
-and tool integration.
+Applying AI to security-oriented workflows with a focus on **risk systems, security automation, and agentic security workflows**.
 
-→ **[Explore Agentic AI
-→](https://github.com/Tarkshya-26/Agentic_AI_with_Frameworks)**
+---
 
-------------------------------------------------------------------------
+## `04 / SELECTED EXPERIENCE`
 
-# `engineering_principles`
+### 🔐 PayU — Information Security
 
-I don't see frameworks as the architecture.
+Worked on an **Agentic AI-based Risk Register system** built around enterprise security and risk-management workflows.
 
-The important questions are:
+The system connected an AI agent with internal tools and services so users could interact conversationally with risk-related information and trigger actions through controlled tool interfaces.
 
-``` text
+**Engineering:**  
+`FastAPI` · `React` · `MCP` · `LLM Agents` · `AWS` · `Linux` · `REST APIs`
+
+The work exposed me to the practical side of building AI systems that have to operate with **real APIs, external tools, backend services, deployment environments, and security constraints**.
+
+---
+
+## `05 / FEATURED REPOSITORIES`
+
+### 🤖 Agentic AI with Frameworks
+
+Hands-on implementations across modern agentic architectures.
+
+```text
+LLM APIs
+   ↓
+Tool Calling
+   ↓
+Agents
+   ↓
+Multi-Agent Systems
+   ↓
+LangGraph / AutoGen / CrewAI
+   ↓
+MCP
+```
+
+**Explore:**  
+[→ Agentic_AI_with_Frameworks](https://github.com/Tarkshya-26/Agentic_AI_with_Frameworks)
+
+---
+
+### 🧠 LLM Engineering
+
+A structured progression through modern LLM engineering, including **RAG, embeddings, retrieval, vector search, and LLM applications**.
+
+**Explore:**  
+[→ LLM_ENG](https://github.com/Tarkshya-26/LLM_ENG)
+
+---
+
+## `06 / ENGINEERING PHILOSOPHY`
+
+I don't treat an AI framework as the architecture.
+
+The questions I care about are:
+
+```text
 What state does the system maintain?
 
-Which component is responsible for each task?
+Which component owns each responsibility?
 
 When should the model call a tool?
 
 How is execution routed?
 
-How are failures handled?
+What happens when a tool fails?
 
-What should remain deterministic?
+Which parts should remain deterministic?
+
+How do we observe and debug the system?
 
 Where does an LLM actually add value?
 ```
 
-A framework is an implementation choice.
+> **Frameworks change. System design remains.**
 
-The goal is to understand the **system underneath the framework**.
+---
 
-------------------------------------------------------------------------
+## `07 / STACK`
 
-# `tech_stack`
+<div align="center">
 
 ### AI / LLM
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![CrewAI](https://img.shields.io/badge/CrewAI-000000?style=flat-square)
-![AutoGen](https://img.shields.io/badge/AutoGen-0078D4?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square)
+<img src="https://skillicons.dev/icons?i=python" height="44"/>
+&nbsp;
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" height="30"/>
+&nbsp;
+<img src="https://img.shields.io/badge/LangGraph-111827?style=for-the-badge" height="30"/>
+&nbsp;
+<img src="https://img.shields.io/badge/CrewAI-111827?style=for-the-badge" height="30"/>
+&nbsp;
+<img src="https://img.shields.io/badge/AutoGen-111827?style=for-the-badge" height="30"/>
+&nbsp;
+<img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge" height="30"/>
 
 ### Backend / Systems
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+<img src="https://skillicons.dev/icons?i=fastapi,react,aws,linux,docker,postgres" height="44"/>
 
 ### Development
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![REST](https://img.shields.io/badge/REST_APIs-000000?style=flat-square)
+<img src="https://skillicons.dev/icons?i=git,github,vscode" height="44"/>
 
-------------------------------------------------------------------------
+</div>
 
-# `learning_path`
+---
 
-My current engineering path:
+## `08 / LEARNING PATH`
 
-``` text
+```text
 Python
-   │
-   ├──────────────► Backend Engineering
-   │
-   ▼
+  │
+  ├──────────────► Backend Engineering
+  │
+  ▼
 LLM Engineering
-   │
-   ├──────────────► RAG
-   │
-   ▼
+  │
+  ├──────────────► RAG
+  │
+  ▼
 Agentic AI
-   │
-   ├──────────────► Multi-Agent Systems
-   │
-   ├──────────────► LangGraph
-   │
-   ├──────────────► AutoGen
-   │
-   └──────────────► MCP
-   │
-   ▼
+  │
+  ├──────────────► Multi-Agent Systems
+  ├──────────────► LangGraph
+  ├──────────────► OpenAI Agents SDK
+  ├──────────────► AutoGen
+  └──────────────► MCP
+  │
+  ▼
 AI Systems
-   │
-   └──────────────► AI Security
+  │
+  └──────────────► AI Security
 ```
 
-------------------------------------------------------------------------
+---
 
-# `currently_exploring`
+## `09 / CURRENTLY EXPLORING`
 
-``` text
+```text
 ▸ Advanced RAG
 ▸ Agent evaluation
 ▸ Agent reliability
@@ -320,32 +259,38 @@ AI Systems
 ▸ DSA & Computer Science fundamentals
 ```
 
-------------------------------------------------------------------------
+---
 
-# `github_stats`
+## `10 / GITHUB ACTIVITY`
 
-::: {align="center"}
-`<img src="https://github-readme-stats.vercel.app/api?username=Tarkshya-26&show_icons=true&theme=transparent&hide_border=true&count_private=true" height="170"/>`{=html}
+<div align="center">
 
-`<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tarkshya-26&layout=compact&theme=transparent&hide_border=true" height="170"/>`{=html}
-:::
+<img src="https://github-readme-stats.vercel.app/api?username=Tarkshya-26&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&count_private=true" height="165"/>
 
-------------------------------------------------------------------------
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tarkshya-26&layout=compact&theme=transparent&hide_border=true&langs_count=8" height="165"/>
 
-# `contributions`
+<br/><br/>
 
-::: {align="center"}
-`<img src="https://streak-stats.demolab.com?user=Tarkshya-26&theme=transparent&hide_border=true"/>`{=html}
-:::
+<img src="https://streak-stats.demolab.com?user=Tarkshya-26&theme=transparent&hide_border=true" height="165"/>
 
-------------------------------------------------------------------------
+</div>
 
-::: {align="center"}
-### Building systems, not just prompts.
+---
 
-`LLMs → Agents → Tools → Systems`
+<div align="center">
 
-`<br>`{=html}
+### `BUILDING SYSTEMS, NOT JUST PROMPTS.`
 
-**AI Systems · Agentic AI · LLM Engineering · AI Security**
-:::
+<br/>
+
+**LLMs → Agents → Tools → Systems**
+
+<br/>
+
+<a href="https://github.com/Tarkshya-26">GitHub</a>
+&nbsp;•&nbsp;
+<a href="https://www.linkedin.com/in/tarkshya-bhardwaj-063795268/">LinkedIn</a>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:111827,100:0F172A&height=100&section=footer&animation=twinkling" width="100%"/>
