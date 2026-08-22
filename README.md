@@ -13,6 +13,7 @@ I build systems where models move past conversation — connecting to real tools
 - **Risk Register Chatbot** · `PayU — internal` — A conversational agent that reads and acts on the enterprise Risk Register. Python/FastAPI backend, MCP tool layer, Jira API integrations, deployed on Amazon Linux EC2 behind Nginx.
 - **[Agentic AI with Frameworks](https://github.com/Tarkshya-26/Agentic_AI_with_Frameworks)** — Hands-on implementations of agentic systems across OpenAI Agents SDK, CrewAI, LangGraph, AutoGen, and MCP.
 - **[LLM Engineering](https://github.com/Tarkshya-26/LLM-Engineering)** — RAG, embeddings, reranking, and retrieval evaluation (MRR/nDCG), alongside tool calling and open-source models.
+- **[AI Security](https://github.com/Tarkshya-26/AI_Security)** — Notes, labs, and threat models from the TryHackMe AI Security path: LLM attack surfaces, prompt injection, RAG and agent vulnerabilities, and model supply chain.
 - **Personal AI Chatbot** — Fully local inference: Qwen served through Ollama with a Gradio interface, no cloud APIs.
 
 ## 02 · Stack
