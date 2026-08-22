@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="Tarkshya Bhardwaj - AI &amp; Security Engineer Portfolio Hero" />
+  <img src="assets/hero_v2.svg" width="100%" alt="Tarkshya Bhardwaj - AI &amp; Security Engineer Portfolio Hero" />
 </div>
 
 <br/>
