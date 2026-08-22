@@ -31,7 +31,7 @@
 
   <!-- Left Telemetry Text -->
   <text x="58" y="44" fill="#94a3b8" class="mono" font-size="12" letter-spacing="1">
-    <tspan fill="#00f0ff" font-weight="bold">SYSTEM ONLINE</tspan> &nbsp;// ALL AGENT &amp; SECURITY PIPELINES OPERATIONAL
+    <tspan fill="#00f0ff" font-weight="bold">SYSTEM ONLINE</tspan>  // ALL AGENT &amp; SECURITY PIPELINES OPERATIONAL
   </text>
 
   <!-- Right Metadata -->
