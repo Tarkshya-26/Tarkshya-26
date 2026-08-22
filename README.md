@@ -17,8 +17,8 @@ I build systems where models move past conversation — connecting to real tools
 
 ## Certifications
 
-**Completed** — The Complete Agentic AI Engineering Course (Ed Donner) · TryHackMe Pre Security<br>
-**In progress** — TryHackMe AI Security · LLM Engineering (Ed Donner)
+**Completed** — The Complete Agentic AI Engineering Course (Ed Donner) · TryHackMe Pre Security · TryHackMe AI Security<br>
+**In progress** — LLM Engineering (Ed Donner)
 
 ## Elsewhere
 
