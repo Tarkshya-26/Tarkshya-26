@@ -1,296 +1,217 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:111827,100:0B1220&height=180&section=header&text=TARKSHYA%20BHARDWAJ&fontSize=48&fontColor=E5E7EB&fontAlignY=38&animation=twinkling&desc=AI%20%26%20Security%20Engineer&descAlignY=62&descSize=20" width="100%"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=7DD3FC&center=true&vCenter=true&width=850&lines=Agentic+AI+%E2%80%A2+LLM+Engineering+%E2%80%A2+AI+Security;Building+systems+that+reason%2C+retrieve%2C+use+tools%2C+and+act.;LLMs+%E2%86%92+Agents+%E2%86%92+Tools+%E2%86%92+Systems" alt="Typing SVG"/>
-</a>
+  <img src="assets/header.svg" width="100%" alt="Tarkshya Bhardwaj - AI &amp; Security Engineer Header" />
+</div>
 
 <br/>
 
-<a href="https://github.com/Tarkshya-26">
-  <img src="https://img.shields.io/badge/GitHub-Tarkshya--26-111827?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/in/tarkshya-bhardwaj-063795268/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="Separator Line" />
 </div>
 
----
+<br/>
 
-## `01 / WHO AM I`
+## `01 / ABOUT`
 
-> **AI & Security Engineer** focused on building intelligent systems rather than just calling models.
-
-I'm an Information Technology undergraduate at **NIT Srinagar** working at the intersection of:
-
-```text
-                     AI SYSTEMS
-                          │
-          ┌───────────────┼───────────────┐
-          │               │               │
-          ▼               ▼               ▼
-    LLM ENGINEERING   AGENTIC AI      AI SECURITY
-          │               │               │
-       RAG /         Tool Calling /    Risk Systems /
-    Retrieval /      Multi-Agent /    Security AI /
-    Embeddings         MCP /          Automation
-                     Orchestration
+```
+LOCATION: NIT Srinagar, India
+FOCUS:    Intelligent Systems • Security at System Level • Tool Integration
+PRIMARY:  Python / FastAPI / MCP / LangGraph / OpenAI Agents SDK
 ```
 
-I like working close to the system boundary: **models, retrieval, state, tools, APIs, backends, and deployment**.
+> **I build intelligent systems that connect models with tools, APIs, data and real-world infrastructure — with security considered at the system level.**
 
----
+I am an Information Technology undergraduate at **NIT Srinagar** operating at the convergence of **LLM Engineering, Agentic Architectures, and AI Security**. 
 
-## `02 / CURRENT FOCUS`
+Rather than viewing models as isolated text generators, I design end-to-end architectures where models act as reasoning components within broader systems. My focus is on **state management, tool isolation, deterministic guardrails, structured outputs, and security boundaries**.
+
+<br/>
 
 <div align="center">
-
-| 🧠 LLM ENGINEERING | 🤖 AGENTIC AI | 🔐 AI SECURITY |
-|:---:|:---:|:---:|
-| RAG | Tool Calling | AI Security Systems |
-| Retrieval | Multi-Agent Systems | Risk Automation |
-| Embeddings | LangGraph | Security Workflows |
-| Structured Outputs | OpenAI Agents SDK | Agentic Security |
-| LLM Applications | MCP | Secure AI Systems |
-
+  <img src="assets/system_map.svg" width="100%" alt="Visual System Architecture Map" />
 </div>
 
----
-
-## `03 / WHAT I'M BUILDING`
-
-### 🧠 LLM Engineering
-
-```text
-LLMs
-  ↓
-Prompting
-  ↓
-Embeddings
-  ↓
-Vector Search
-  ↓
-RAG
-  ↓
-Evaluation
-  ↓
-LLM Applications
-```
-
-Focused on building useful LLM systems with retrieval, context management, structured outputs, and reliable application logic.
-
-### 🤖 Agentic AI
-
-```text
-        ┌─────────────┐
-        │    LLM      │
-        └──────┬──────┘
-               ↓
-         Tool Calling
-               ↓
-            Agents
-               ↓
-      ┌────────┼────────┐
-      ↓        ↓        ↓
-  Planning  State    Tools
-      │        │        │
-      └────────┼────────┘
-               ↓
-      Multi-Agent Systems
-               ↓
-              MCP
-```
-
-Exploring **OpenAI Agents SDK, LangGraph, CrewAI, AutoGen, MCP**, and the engineering decisions underneath those abstractions.
-
-### 🔐 AI Security
-
-Applying AI to security-oriented workflows with a focus on **risk systems, security automation, and agentic security workflows**.
-
----
-
-## `04 / SELECTED EXPERIENCE`
-
-### 🔐 PayU — Information Security
-
-Worked on an **Agentic AI-based Risk Register system** built around enterprise security and risk-management workflows.
-
-The system connected an AI agent with internal tools and services so users could interact conversationally with risk-related information and trigger actions through controlled tool interfaces.
-
-**Engineering:**  
-`FastAPI` · `React` · `MCP` · `LLM Agents` · `AWS` · `Linux` · `REST APIs`
-
-The work exposed me to the practical side of building AI systems that have to operate with **real APIs, external tools, backend services, deployment environments, and security constraints**.
-
----
-
-## `05 / FEATURED REPOSITORIES`
-
-### 🤖 Agentic AI with Frameworks
-
-Hands-on implementations across modern agentic architectures.
-
-```text
-LLM APIs
-   ↓
-Tool Calling
-   ↓
-Agents
-   ↓
-Multi-Agent Systems
-   ↓
-LangGraph / AutoGen / CrewAI
-   ↓
-MCP
-```
-
-**Explore:**  
-[→ Agentic_AI_with_Frameworks](https://github.com/Tarkshya-26/Agentic_AI_with_Frameworks)
-
----
-
-### 🧠 LLM Engineering
-
-A structured progression through modern LLM engineering, including **RAG, embeddings, retrieval, vector search, and LLM applications**.
-
-**Explore:**  
-[→ LLM_ENG](https://github.com/Tarkshya-26/LLM_ENG)
-
----
-
-## `06 / ENGINEERING PHILOSOPHY`
-
-I don't treat an AI framework as the architecture.
-
-The questions I care about are:
-
-```text
-What state does the system maintain?
-
-Which component owns each responsibility?
-
-When should the model call a tool?
-
-How is execution routed?
-
-What happens when a tool fails?
-
-Which parts should remain deterministic?
-
-How do we observe and debug the system?
-
-Where does an LLM actually add value?
-```
-
-> **Frameworks change. System design remains.**
-
----
-
-## `07 / STACK`
+<br/>
 
 <div align="center">
-
-### AI / LLM
-
-<img src="https://skillicons.dev/icons?i=python" height="44"/>
-&nbsp;
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" height="30"/>
-&nbsp;
-<img src="https://img.shields.io/badge/LangGraph-111827?style=for-the-badge" height="30"/>
-&nbsp;
-<img src="https://img.shields.io/badge/CrewAI-111827?style=for-the-badge" height="30"/>
-&nbsp;
-<img src="https://img.shields.io/badge/AutoGen-111827?style=for-the-badge" height="30"/>
-&nbsp;
-<img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge" height="30"/>
-
-### Backend / Systems
-
-<img src="https://skillicons.dev/icons?i=fastapi,react,aws,linux,docker,postgres" height="44"/>
-
-### Development
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode" height="44"/>
-
+  <img src="assets/divider.svg" width="100%" alt="Separator Line" />
 </div>
 
----
+<br/>
 
-## `08 / LEARNING PATH`
+## `02 / CURRENTLY BUILDING`
 
-```text
-Python
-  │
-  ├──────────────► Backend Engineering
-  │
-  ▼
-LLM Engineering
-  │
-  ├──────────────► RAG
-  │
-  ▼
-Agentic AI
-  │
-  ├──────────────► Multi-Agent Systems
-  ├──────────────► LangGraph
-  ├──────────────► OpenAI Agents SDK
-  ├──────────────► AutoGen
-  └──────────────► MCP
-  │
-  ▼
-AI Systems
-  │
-  └──────────────► AI Security
-```
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
----
+### `01 / AGENTIC SYSTEMS`
+`STATUS: ACTIVE` `DISPATCH: ASYNC`
 
-## `09 / CURRENTLY EXPLORING`
+Exploring multi-agent orchestration, state transitions, tool call routing, and protocol standardization. Working deeply with **OpenAI Agents SDK, LangGraph, CrewAI, AutoGen**, and building custom **MCP (Model Context Protocol)** servers for tool integration.
 
-```text
-▸ Advanced RAG
-▸ Agent evaluation
-▸ Agent reliability
-▸ MCP architectures
-▸ Production LLM systems
-▸ AI security
-▸ DSA & Computer Science fundamentals
-```
+</td>
+<td width="50%" valign="top">
 
----
+### `02 / LLM ENGINEERING`
+`STATUS: ACTIVE` `EVAL: CONTINUOUS`
 
-## `10 / GITHUB ACTIVITY`
+Building production-grade **RAG pipelines**, hybrid vector search, context compression, semantic routing, and structured output parsing. Translating unstructured model outputs into deterministic, typed schemas for downstream execution.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `03 / AI SECURITY`
+`STATUS: ACTIVE` `SCOPE: CRITICAL`
+
+Designing security controls for agentic execution. Focus on **tool privilege isolation, automated risk triage systems, threat modeling for LLMs**, and agentic security workflows that maintain strict system boundaries.
+
+</td>
+<td width="50%" valign="top">
+
+### `04 / PRODUCTION AI`
+`STATUS: ACTIVE` `INFRA: CLOUD`
+
+Architecting resilient backend infrastructure using **FastAPI, REST APIs, Docker, and AWS**. Ensuring production AI workloads have proper telemetry, low latencies, rate limiting, and observability.
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 <div align="center">
+  <img src="assets/divider.svg" width="100%" alt="Separator Line" />
+</div>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Tarkshya-26&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&count_private=true" height="165"/>
+<br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tarkshya-26&layout=compact&theme=transparent&hide_border=true&langs_count=8" height="165"/>
+## `03 / SELECTED WORK`
 
+### `01 // ENTERPRISE RISK REGISTER CHATBOT`
+**Role:** Information Security Engineer (`PayU`)  
+**Stack:** `FastAPI` • `React` • `MCP` • `LLM Agents` • `AWS` • `Linux` • `REST APIs`
+
+> Engineered an **Agentic AI-based Risk Register system** built around enterprise security and risk-management workflows. Connected AI agents with internal tools and databases, allowing security engineers to conversationally inspect risk telemetry, execute structured risk assessments, and trigger automated security actions via controlled tool interfaces.
+
+---
+
+### `02 // AGENTIC AI WITH FRAMEWORKS`
+**Repository:** [`Tarkshya-26/Agentic_AI_with_Frameworks`](https://github.com/Tarkshya-26/Agentic_AI_with_Frameworks)  
+**Stack:** `OpenAI Agents SDK` • `LangGraph` • `CrewAI` • `AutoGen` • `MCP` • `Python`
+
+> Hands-on reference implementation of modern agentic architectures. Demonstrates multi-agent coordination, graph-based state machines, dynamic tool calling, memory management, and MCP server integrations.
+
+---
+
+### `03 // LLM ENGINEERING & RAG ARCHITECTURES`
+**Repository:** [`Tarkshya-26/LLM_ENG`](https://github.com/Tarkshya-26/LLM_ENG)  
+**Stack:** `Python` • `RAG` • `Vector Databases` • `Embeddings` • `FastAPI` • `Structured Outputs`
+
+> Comprehensive suite of production-focused LLM engineering patterns. Covers hybrid retrieval, vector index optimization, semantic search, prompt evaluation, and deterministic wrapper layers around non-deterministic model outputs.
+
+---
+
+### `04 // AI SECURITY & TOOL BOUNDARY SYSTEMS`
+**Area:** `Security Engineering & System Isolation`  
+**Stack:** `FastAPI` • `Python` • `Security Systems` • `Tool Calling` • `Access Controls`
+
+> Research and implementation of security boundaries for tool-calling agents. Focuses on sandboxing external API access, enforcement of least privilege on agent actions, and automated auditing of AI-triggered actions.
+
+<br/>
+
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="Separator Line" />
+</div>
+
+<br/>
+
+## `04 / ENGINEERING STACK`
+
+```
+┌─────────────────────────┬────────────────────────────────────────────────────────┐
+│ CATEGORY                │ TECHNOLOGIES & TOOLS                                   │
+├─────────────────────────┼────────────────────────────────────────────────────────┤
+│ LANGUAGE                │ Python • SQL • JavaScript                              │
+│ AI / LLM                │ OpenAI • LLM Engineering • RAG • Agents •              │
+│                         │ Structured Outputs • Tool Calling                      │
+│ AGENT SYSTEMS           │ LangGraph • CrewAI • AutoGen • MCP •                   │
+│                         │ OpenAI Agents SDK                                      │
+│ BACKEND                 │ FastAPI • Flask • REST APIs                            │
+│ INFRASTRUCTURE          │ AWS • EC2 • Nginx • Linux • Git                        │
+│ FRONTEND                │ React • Vite • Tailwind                                │
+└─────────────────────────┴────────────────────────────────────────────────────────┘
+```
+
+<br/>
+
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="Separator Line" />
+</div>
+
+<br/>
+
+## `05 / ENGINEERING PRINCIPLES`
+
+```
+01 — Models are components, not applications.
+     An LLM is a reasoning primitive inside a system, not the architecture itself.
+
+02 — Agents need boundaries.
+     Autonomous loops must operate within strict state spaces and explicit termination criteria.
+
+03 — Tool access is a security boundary.
+     Granting an agent API access is granting execution privilege — scope it like root.
+
+04 — Production AI needs observability.
+     If you cannot trace every prompt, context window, vector lookup, and tool call, you cannot debug it.
+
+05 — Intelligent systems should be designed, not glued together.
+     Frameworks change. System design, clean interfaces, and state hygiene remain forever.
+```
+
+<br/>
+
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="Separator Line" />
+</div>
+
+<br/>
+
+## `06 / CONNECT`
+
+<table width="100%">
+<tr>
+<td width="25%" align="center">
+<br/>
+<b>EMAIL</b><br/>
+<a href="mailto:tarkshya.bhardwaj@gmail.com"><code>tarkshya.bhardwaj@gmail.com</code></a>
 <br/><br/>
+</td>
+<td width="25%" align="center">
+<br/>
+<b>LINKEDIN</b><br/>
+<a href="https://www.linkedin.com/in/tarkshya-bhardwaj-063795268/"><code>in/tarkshya-bhardwaj</code></a>
+<br/><br/>
+</td>
+<td width="25%" align="center">
+<br/>
+<b>GITHUB</b><br/>
+<a href="https://github.com/Tarkshya-26"><code>github/Tarkshya-26</code></a>
+<br/><br/>
+</td>
+<td width="25%" align="center">
+<br/>
+<b>RESUME</b><br/>
+<a href="mailto:tarkshya.bhardwaj@gmail.com?subject=Resume%20Request"><code>Request Resume</code></a>
+<br/><br/>
+</td>
+</tr>
+</table>
 
-<img src="https://streak-stats.demolab.com?user=Tarkshya-26&theme=transparent&hide_border=true" height="165"/>
-
-</div>
-
----
+<br/>
 
 <div align="center">
-
-### `BUILDING SYSTEMS, NOT JUST PROMPTS.`
-
-<br/>
-
-**LLMs → Agents → Tools → Systems**
-
-<br/>
-
-<a href="https://github.com/Tarkshya-26">GitHub</a>
-&nbsp;•&nbsp;
-<a href="https://www.linkedin.com/in/tarkshya-bhardwaj-063795268/">LinkedIn</a>
-
+  <img src="assets/status_footer.svg" width="100%" alt="Telemetry Status Footer" />
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:111827,100:0F172A&height=100&section=footer&animation=twinkling" width="100%"/>
