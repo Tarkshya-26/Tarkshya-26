@@ -4,17 +4,17 @@
   <img src="assets/banner-dark.svg" alt="Tarkshya Bhardwaj — AI &amp; Security Engineer. LLM engineering, agentic AI systems, AI security, and MCP tool boundaries.">
 </picture>
 
-I build systems where models move past conversation — connecting to real tools, APIs, data, and infrastructure — and work out the security boundaries that appear once a model is given the ability to act. Most recently **Information Security Intern at PayU** (Dec 2025 – Mar 2026), building agentic AI into enterprise security workflows on live infrastructure.
+I build systems where models move past conversations, connecting to real tools, APIs, data, and infrastructure and work out the security boundaries that appear once a model is given the ability to act. Most recently **Information Security Intern at PayU** (Dec 2025 – Mar 2026), building agentic AI into enterprise security workflows on live infrastructure.
 
-> An LLM is a reasoning component inside a system, not the architecture itself. Tool access is where the security lives — giving an agent API access is giving it execution privilege, so it gets scoped like one.
+> An LLM is a reasoning component inside a system, not the architecture itself. Tool access is where the security lives, giving an agent API access is giving it execution privilege, so it gets scoped like one.
 
 ## 01 · Selected work
 
-- **Risk Register Chatbot** · `PayU — internal` — A conversational agent that reads and acts on the enterprise Risk Register. Python/FastAPI backend, MCP tool layer, Jira API integrations, deployed on Amazon Linux EC2 behind Nginx.
-- **[Agentic AI with Frameworks](https://github.com/Tarkshya-26/Agentic_AI_with_Frameworks)** — Hands-on implementations of agentic systems across OpenAI Agents SDK, CrewAI, LangGraph, AutoGen, and MCP.
-- **[LLM Engineering](https://github.com/Tarkshya-26/LLM-Engineering)** — RAG, embeddings, reranking, and retrieval evaluation (MRR/nDCG), alongside tool calling and open-source models.
-- **[AI Security](https://github.com/Tarkshya-26/AI_Security)** — Notes, labs, and threat models from the TryHackMe AI Security path: LLM attack surfaces, prompt injection, RAG and agent vulnerabilities, and model supply chain.
-- **Personal AI Chatbot** — Fully local inference: Qwen served through Ollama with a Gradio interface, no cloud APIs.
+- **Risk Register Chatbot** · `PayU — internal` : A conversational agent that reads and acts on the enterprise Risk Register. Python/FastAPI backend, MCP tool layer, Jira API integrations, deployed on Amazon Linux EC2 behind Nginx.
+- **[Agentic AI with Frameworks](https://github.com/Tarkshya-26/Agentic_AI_with_Frameworks)** : Hands on implementations of agentic systems across OpenAI Agents SDK, CrewAI, LangGraph, AutoGen, and MCP.
+- **[LLM Engineering](https://github.com/Tarkshya-26/LLM-Engineering)** : RAG, embeddings, reranking, and retrieval evaluation (MRR/nDCG), alongside tool calling and open-source models.
+- **[AI Security](https://github.com/Tarkshya-26/AI_Security)** : Notes, labs, and threat models from the TryHackMe AI Security path: LLM attack surfaces, prompt injection, RAG and agent vulnerabilities, and model supply chain.
+- **Personal AI Chatbot** : Fully local inference: Qwen served through Ollama with a Gradio interface, no cloud APIs.
 
 ## 02 · Stack
 
@@ -24,15 +24,15 @@ I build systems where models move past conversation — connecting to real tools
   <img src="assets/stack-dark.svg" alt="Stack: Python, FastAPI, Pydantic, MCP, LangGraph, Ollama, Gradio, Linux, Nginx, Git, React, Tailwind">
 </picture>
 
-**Agents** — OpenAI Agents SDK · CrewAI *(strongest hands-on)* · LangGraph · AutoGen · multi-agent orchestration<br>
-**LLM** — RAG · embeddings & reranking · retrieval evaluation · structured outputs · local inference<br>
-**Security** — LLM attack surfaces · prompt injection · scoped tool exposure · risk-management workflows<br>
-**Infra** — AWS EC2 · Amazon Linux · Nginx · Git
+**Agents** : OpenAI Agents SDK · CrewAI *(strongest hands-on)* · LangGraph · AutoGen · multi-agent orchestration<br>
+**LLM** : RAG · embeddings & reranking · retrieval evaluation · structured outputs · local inference<br>
+**Security** : LLM attack surfaces · prompt injection · scoped tool exposure · risk management workflows<br>
+**Infra** : AWS EC2 · Amazon Linux · Nginx · Git
 
 ## 03 · Certifications
 
-**Completed** — The Complete Agentic AI Engineering Course (Ed Donner) · TryHackMe Pre Security · TryHackMe AI Security<br>
-**In progress** — LLM Engineering (Ed Donner)
+**Completed** —> The Complete Agentic AI Engineering Course (Ed Donner) · TryHackMe Pre Security · TryHackMe AI Security<br>
+**In progress** —> LLM Engineering (Ed Donner)
 
 ## 04 · Activity
 
@@ -59,6 +59,6 @@ Outside engineering I'm Production Head at **The Unheard Mehfil**, a podcast wit
 
 ---
 
-> `> EOF — build something intelligent today.`
+> `> EOF -> build something intelligent today.`
 
 <img src="https://komarev.com/ghpvc/?username=Tarkshya-26&label=Profile%20views&color=4d9fff&style=flat" alt="Profile views">
